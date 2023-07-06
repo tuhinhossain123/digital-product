@@ -44,6 +44,9 @@
     height: 100vh;
     background-image: url(./images/background.png),
         linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 
 .banner-img {
@@ -63,7 +66,7 @@ margin-bottom: 10px;
     padding-left: 0px;
 }
 .btn{
-    background-color: skyblue;
+    background-color: red;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -72,4 +75,30 @@ margin-bottom: 10px;
 }
 .btn:hover{
     cursor: pointer;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    color: rgb(62, 62, 109);
+    padding-top: 20px;
+}
+.about-h1{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-2{
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
 }
