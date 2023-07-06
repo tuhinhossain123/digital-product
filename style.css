@@ -43,29 +43,33 @@
     align-items: center;
     height: 100vh;
     background-image: url(./images/background.png),
-        linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner-img {
     width: 300px;
 }
-.title{
+
+.title {
     font-size: 55px;
     font-weight: bold;
     color: rgb(65, 156, 156);
 }
-.description{
-font-size: 15px;
-margin-top: 15px;
-margin-bottom: 10px;
+
+.description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
-.banner-text{
+
+.banner-text {
     padding-left: 0px;
 }
-.btn{
+
+.btn {
     background-color: red;
     color: white;
     padding: 10px 20px;
@@ -73,32 +77,92 @@ margin-bottom: 10px;
     font-weight: bold;
     border: none;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
     padding: 10px;
 }
-.about-title{
+
+.about-title {
     text-align: center;
     color: rgb(62, 62, 109);
     padding-top: 20px;
 }
-.about-h1{
+
+.about-h1 {
     color: orange;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-.btn-2{
+
+.btn-2 {
     background-color: skyblue;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
     border: none;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+}
+
+.service-title {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.box {
+    width: 230px;
+    height: 280px;
+    box-shadow: 20px 20px 50px 50px white;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 70px;
+}
+
+.box-btn {
+    background-color: gray;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.box-title {
+    padding: 10px;
+}
+
+.box-discription{
+    padding: 5px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.section-bg{
+    background-color: rgb(83, 82, 82);
 }
